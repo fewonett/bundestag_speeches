@@ -6,7 +6,7 @@ authors = [
     {name = "fewonett",email = "81972427+fewonett@users.noreply.github.com"}
 ]
 readme = "README.md"
-requires-python = "~3.11"
+requires-python = "~=3.11"
 dependencies = [
     "boto3 (>=1.40.67,<2.0.0)",
     "requests (>=2.32.5,<3.0.0)"
@@ -18,6 +18,12 @@ package-mode = false
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.14.3"
 tofu = "^1.8.17"
+pytest = "^8.4.2"
+
+[tool.poety.group.lint.dependencies]
+ruff = "^0.14.3"
+
+[tool.poetry.test.dependencies]
 pytest = "^8.4.2"
 
 [build-system]
