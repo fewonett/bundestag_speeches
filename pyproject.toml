@@ -20,10 +20,10 @@ ruff = "^0.14.3"
 tofu = "^1.8.17"
 pytest = "^8.4.2"
 
-[tool.poety.group.lint.dependencies]
+[tool.poetry.group.lint.dependencies]
 ruff = "^0.14.3"
 
-[tool.poetry.test.dependencies]
+[tool.poetry.group.test.dependencies]
 pytest = "^8.4.2"
 
 [build-system]
